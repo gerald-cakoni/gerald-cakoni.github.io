@@ -1,0 +1,175 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+.header,
+.card,
+.education,
+.requests,
+.connections{
+    border: 4px solid rgb(193, 193, 193);
+    margin-bottom: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 140px 0 100px;
+    background-color: black;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+.li{
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.profile,
+.myprofile{
+    font-weight: bold;
+}
+.profile{
+    font-size: xx-large;
+}
+.btn{
+    width: 100px;
+    height:30px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.card{
+    width: 400px;
+    height: 300px;
+}
+
+.header_card{
+height: 70px;
+background-color: aqua;
+}
+
+.main_card{
+    padding: 20px 0 0 30px;
+    font-weight: bold;
+}
+
+.my_image_profile{
+    width: 70px;
+    height: 70px;
+    border: 4px solid gray;
+    border-radius: 50%;
+    margin: 35px 0 0 20px;
+}
+
+.icons{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.location{
+    display: flex;
+}
+
+.education{
+    width: 400px;
+    height: 170px;
+}
+
+.education_main{
+    height: 140px;
+}
+
+.education_header{
+background-color: black;
+color: white;
+height: 30px;
+font-size: 20px;
+padding: 5px 0 0 10px;
+}
+.requests{
+    width: 250px;
+    height: 170px;
+}
+
+.requests_header{
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 0 0 10px;
+}
+.number_requests{
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    align-items: center;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+
+.request_main{
+margin-top: 5px;
+}
+
+.connections_names{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.connections_icons{
+height: 30px;
+border-radius: 100%;
+padding: 5px;
+margin: 5px;
+}
+
+.connections{
+    width: 250px;
+    height: 300px;
+}
+
+.connections_header{
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 0 0 10px;
+}
+.number_connections{
+    background-color: gray;
+    color: black;
+    border-radius: 40%;
+    align-items: center;
+    height: 50px;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+
+.connections_footer{
+    height: 50px;
+    border-top: 4px solid rgb(193, 193, 193);
+    padding: 10px;
+    font-weight: bold;
+}
+.main1{
+margin-right: 20px;
+}
