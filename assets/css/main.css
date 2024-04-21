@@ -48,9 +48,15 @@ footer, header, hgroup, menu, nav, section {
 	  }
 	  
 	  .flag {
-		width: 30px; /* Adjust according to your flag size */
+		width: 30px; /* Adjust to desired width */
 		height: auto;
 	  }
+	  @media screen and (max-width: 768px) {
+		.flag {
+		  width: 20px; /* Adjust for smaller screens */
+		}
+	  }
+			
 	  
 	  .tooltip {
 		visibility: hidden;
